@@ -4,7 +4,7 @@
 #### PACKAGES ####
 library(RSocrata)
 library(sf)
-library(tmap)
+library(tmap) # cartography - can also use ggplot2 (see tutorial)
 library(lubridate)
 library(tidyverse)
 
