@@ -1,14 +1,14 @@
 # Workshop 2: 2019/10/15
 # Spatial Data Handling
 
-#### PACKAGES ####
+# load packages
 library(RSocrata)
 library(sf)
 library(tmap) # cartography - can also use ggplot2 (see tutorial)
 library(lubridate)
 library(tidyverse)
 
-#### RECAP: 311 CALLS ####
+# recap: 311 calls
 
 # load data
 vehicle_data <- read.socrata("https://data.cityofchicago.org/resource/suj7-cg3j.csv") # link updates
@@ -37,7 +37,7 @@ st_crs(vehicle_pts) # units = m
 
 plot(st_buffer(vehicle_pts, 1000)) # make big 1 km circles
 
-#### SPATIAL JOIN: COMMUNITY AREAS ####
+# SPATIAL JOIN: COMMUNITY AREAS
 
 # merge(x, y, by = "id)
 # st_join(x, y)

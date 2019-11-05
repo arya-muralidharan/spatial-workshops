@@ -1,14 +1,15 @@
 # Workshop 1: 2019/10/08
 # Spatial Data Handling
 
-#### PACKAGES ####
+# load packages
 library(RSocrata)
 library(sf)
 library(tmap) # cartography - can also use ggplot2 (see tutorial)
 library(lubridate)
 library(tidyverse)
 
-#### 311 CALLS ####
+
+# 311 CALLS
 
 # load data
 vehicle_data <- read.socrata("https://data.cityofchicago.org/resource/suj7-cg3j.csv") # link updates
@@ -65,7 +66,7 @@ st_crs(vehicle_points)
 # for the decimal degree coordinates.
 
 
-#### COMMUNITY AREAS ####
+# COMMUNITY AREAS
 
 # load data
 chicago.comm <- read_sf("https://data.cityofchicago.org/resource/igwz-8jzy.geojson")
