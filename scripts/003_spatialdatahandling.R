@@ -1,5 +1,5 @@
 # Workshop 3: 2019/10/22
-# Basic Mapping (jk, this is just SDH part 3)
+# Spatial Data Handling
 
 library(geodaData)
 library(sf)

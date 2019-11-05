@@ -1,5 +1,5 @@
 # Workshop 2: 2019/10/15
-# Spatial Data Handling, Cont.
+# Spatial Data Handling
 
 #### PACKAGES ####
 library(RSocrata)
