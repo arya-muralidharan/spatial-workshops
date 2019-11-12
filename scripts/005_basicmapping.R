@@ -1,5 +1,5 @@
 # Workshop 5: 2019/11/05
-# Basic Mapping
+# Basic Mapping & Spatial Autocorrelation
 
 library(geodaData)
 library(sf)
