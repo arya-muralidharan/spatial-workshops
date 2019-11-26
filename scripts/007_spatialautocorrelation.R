@@ -1,7 +1,6 @@
 # Workshop 7: 2019/11/19
 # Spatial Autocorrelation
 
-# figure out how to install this because nothing worked haha
 library(rgeoda)
 
 library(geodaData)
